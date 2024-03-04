@@ -42,6 +42,9 @@ struct ContentView: View {
             } message: {
                 Text(erroMessage)
             }
+            .toolbar(content: {
+                Button("Restart", action: startGame)
+            })
         }
     }
     
@@ -65,6 +68,15 @@ struct ContentView: View {
             return
         }
         
+        guard shortWords(word: answer) else {
+            wordError(title: "Word is short", message: "Word length must be greater than 3")
+            return
+        }
+        
+        guard startedWord(word: answer) else {
+            wordError(title: "Same as root", message: "Word can not be the same of root word")
+            return
+        }
         
         withAnimation {
             usedWords.insert(answer, at: 0)
@@ -115,7 +127,16 @@ struct ContentView: View {
         erroMessage = message
         showingError = true
     }
-
+    
+    func shortWords(word: String) -> Bool {
+        word.count > 3
+    }
+    
+    func startedWord(word: String) -> Bool {
+        let tempWord = rootWord
+        
+        return word != tempWord
+    }
 }
 
 #Preview {
