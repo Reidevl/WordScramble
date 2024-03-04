@@ -17,6 +17,9 @@
 		EEB61EF12B9612160097B026 /* GameScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB61EF02B9612160097B026 /* GameScoreView.swift */; };
 		EEB61EF32B9617C50097B026 /* GameTextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB61EF22B9617C50097B026 /* GameTextInputView.swift */; };
 		EEB61EF52B9619510097B026 /* GameWordsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB61EF42B9619510097B026 /* GameWordsListView.swift */; };
+		EEB61F142B9663E90097B026 /* Simulator Screenshot - iPhone 15 Pro - 2024-03-04 at 16.15.30.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB61F112B9663E90097B026 /* Simulator Screenshot - iPhone 15 Pro - 2024-03-04 at 16.15.30.png */; };
+		EEB61F152B9663E90097B026 /* Simulator Screenshot - iPhone 15 Pro - 2024-03-04 at 16.16.54.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB61F122B9663E90097B026 /* Simulator Screenshot - iPhone 15 Pro - 2024-03-04 at 16.16.54.png */; };
+		EEB61F162B9663E90097B026 /* Simulator Screenshot - iPhone 15 Pro - 2024-03-04 at 16.15.20.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB61F132B9663E90097B026 /* Simulator Screenshot - iPhone 15 Pro - 2024-03-04 at 16.15.20.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		EEB61EF02B9612160097B026 /* GameScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScoreView.swift; sourceTree = "<group>"; };
 		EEB61EF22B9617C50097B026 /* GameTextInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTextInputView.swift; sourceTree = "<group>"; };
 		EEB61EF42B9619510097B026 /* GameWordsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWordsListView.swift; sourceTree = "<group>"; };
+		EEB61F112B9663E90097B026 /* Simulator Screenshot - iPhone 15 Pro - 2024-03-04 at 16.15.30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 15 Pro - 2024-03-04 at 16.15.30.png"; sourceTree = "<group>"; };
+		EEB61F122B9663E90097B026 /* Simulator Screenshot - iPhone 15 Pro - 2024-03-04 at 16.16.54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 15 Pro - 2024-03-04 at 16.16.54.png"; sourceTree = "<group>"; };
+		EEB61F132B9663E90097B026 /* Simulator Screenshot - iPhone 15 Pro - 2024-03-04 at 16.15.20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 15 Pro - 2024-03-04 at 16.15.20.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,7 @@
 		EE7BA62C2B8F68EC00E6F30B = {
 			isa = PBXGroup;
 			children = (
+				EEB61F102B9660B10097B026 /* Resources */,
 				EE7BA6372B8F68EC00E6F30B /* WordScramble */,
 				EE7BA6362B8F68EC00E6F30B /* Products */,
 			);
@@ -99,6 +106,16 @@
 				EEB61EF42B9619510097B026 /* GameWordsListView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		EEB61F102B9660B10097B026 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EEB61F132B9663E90097B026 /* Simulator Screenshot - iPhone 15 Pro - 2024-03-04 at 16.15.20.png */,
+				EEB61F112B9663E90097B026 /* Simulator Screenshot - iPhone 15 Pro - 2024-03-04 at 16.15.30.png */,
+				EEB61F122B9663E90097B026 /* Simulator Screenshot - iPhone 15 Pro - 2024-03-04 at 16.16.54.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +176,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB61F152B9663E90097B026 /* Simulator Screenshot - iPhone 15 Pro - 2024-03-04 at 16.16.54.png in Resources */,
+				EEB61F162B9663E90097B026 /* Simulator Screenshot - iPhone 15 Pro - 2024-03-04 at 16.15.20.png in Resources */,
+				EEB61F142B9663E90097B026 /* Simulator Screenshot - iPhone 15 Pro - 2024-03-04 at 16.15.30.png in Resources */,
 				EE7BA6402B8F68ED00E6F30B /* Preview Assets.xcassets in Resources */,
 				EE7BA6472B8F85C900E6F30B /* start.txt in Resources */,
 				EE7BA63D2B8F68ED00E6F30B /* Assets.xcassets in Resources */,

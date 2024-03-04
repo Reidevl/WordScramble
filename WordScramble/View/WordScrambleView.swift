@@ -33,7 +33,6 @@ struct WordScrambleView: View {
                     viewModel.startGame()
                 }
             }
-            
             GameScoreView(gameScore: viewModel.gameScore,scoreMessage: viewModel.showScoreInfo, openInfo: $viewModel.showingInfo)
         }
     }
