@@ -12,6 +12,11 @@
 		EE7BA63D2B8F68ED00E6F30B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7BA63C2B8F68ED00E6F30B /* Assets.xcassets */; };
 		EE7BA6402B8F68ED00E6F30B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7BA63F2B8F68ED00E6F30B /* Preview Assets.xcassets */; };
 		EE7BA6472B8F85C900E6F30B /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = EE7BA6462B8F85C900E6F30B /* start.txt */; };
+		EEB61EEB2B960E610097B026 /* WordScrambleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB61EEA2B960E610097B026 /* WordScrambleViewModel.swift */; };
+		EEB61EED2B960FDA0097B026 /* WordScrambleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB61EEC2B960FDA0097B026 /* WordScrambleView.swift */; };
+		EEB61EF12B9612160097B026 /* GameScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB61EF02B9612160097B026 /* GameScoreView.swift */; };
+		EEB61EF32B9617C50097B026 /* GameTextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB61EF22B9617C50097B026 /* GameTextInputView.swift */; };
+		EEB61EF52B9619510097B026 /* GameWordsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB61EF42B9619510097B026 /* GameWordsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		EE7BA63C2B8F68ED00E6F30B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE7BA63F2B8F68ED00E6F30B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE7BA6462B8F85C900E6F30B /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		EEB61EEA2B960E610097B026 /* WordScrambleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleViewModel.swift; sourceTree = "<group>"; };
+		EEB61EEC2B960FDA0097B026 /* WordScrambleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleView.swift; sourceTree = "<group>"; };
+		EEB61EF02B9612160097B026 /* GameScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScoreView.swift; sourceTree = "<group>"; };
+		EEB61EF22B9617C50097B026 /* GameTextInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTextInputView.swift; sourceTree = "<group>"; };
+		EEB61EF42B9619510097B026 /* GameWordsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWordsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,8 @@
 		EE7BA6372B8F68EC00E6F30B /* WordScramble */ = {
 			isa = PBXGroup;
 			children = (
+				EEB61EEF2B96116D0097B026 /* Components */,
+				EEB61EE82B960E350097B026 /* View */,
 				EE7BA6382B8F68EC00E6F30B /* WordScrambleApp.swift */,
 				EE7BA63A2B8F68EC00E6F30B /* ContentView.swift */,
 				EE7BA6462B8F85C900E6F30B /* start.txt */,
@@ -68,6 +80,25 @@
 				EE7BA63F2B8F68ED00E6F30B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEB61EE82B960E350097B026 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEB61EEA2B960E610097B026 /* WordScrambleViewModel.swift */,
+				EEB61EEC2B960FDA0097B026 /* WordScrambleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEB61EEF2B96116D0097B026 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EEB61EF02B9612160097B026 /* GameScoreView.swift */,
+				EEB61EF22B9617C50097B026 /* GameTextInputView.swift */,
+				EEB61EF42B9619510097B026 /* GameWordsListView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +172,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB61EF12B9612160097B026 /* GameScoreView.swift in Sources */,
+				EEB61EEB2B960E610097B026 /* WordScrambleViewModel.swift in Sources */,
+				EEB61EF52B9619510097B026 /* GameWordsListView.swift in Sources */,
+				EEB61EED2B960FDA0097B026 /* WordScrambleView.swift in Sources */,
 				EE7BA63B2B8F68EC00E6F30B /* ContentView.swift in Sources */,
+				EEB61EF32B9617C50097B026 /* GameTextInputView.swift in Sources */,
 				EE7BA6392B8F68EC00E6F30B /* WordScrambleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
